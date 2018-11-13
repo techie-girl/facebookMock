@@ -1,0 +1,411 @@
+/* Index CSS */
+body {
+    font-size: 100%;
+    font-family: arial, sans-serif;
+
+}
+
+@media screen and (max-width: 575px) {
+    .nav-item {
+        padding: 2px 10px 1px 5px !important;
+        background-color: #34495e;
+        border: 1px solid white;
+        border-radius: 3px;
+        z-index: 3;
+
+    }
+
+    .nav-item .nav-link {
+        color: white !important;
+    }
+
+    .nav-item .btn {
+
+    }
+}
+
+.toggle {
+    padding-right: 8px;
+}
+
+.navbar {
+    padding: 0rem 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    padding-left: 15px;
+}
+
+.nav-item {
+    padding: 25px 10px 15px 15px;
+}
+
+.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align: center;
+}
+
+.panel-heading a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.panel-heading a.hover {
+    text-decoration: none;
+}
+
+.panel-heading a.active {
+    color: #0E2658;
+    font-size: 18px;
+}
+
+.panel-heading hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+}
+
+.btn-login {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+
+.btn-register {
+    background-color: #1CB94E;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #1CB94A;
+}
+
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #1CA347;
+    border-color: #1CA347;
+}
+
+#nttLogo {
+    height: 100px;
+    width: 100px;
+}
+
+#websiteTitle {
+    font-size: 10em;
+    vertical-align: middle;
+    font-family: 'Pacifico', cursive;
+    padding-left: 15px;
+    color: #191970;
+}
+
+#websiteSlogan {
+    font-size: 5.4em;
+}
+
+.carousel-caption p {
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: .4em;
+}
+
+.carousel-caption .cap-2 {
+    padding: 0em 0em 0em 12em;
+}
+
+.carousel-caption .cap-3 {
+    padding: 0em 11em 5em 0em;
+}
+
+.homebutton {
+    background-color: #3220d6;
+    color: #cc0000;
+    padding: 15px 32px;
+    height: 100px;
+}
+
+.carousel-item {
+
+    /*  height: 500px;
+    */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.loginmodal-container {
+    padding: 30px;
+    max-width: 350px;
+    width: 100% !important;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-family: roboto;
+}
+
+.loginmodal-container h1 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    /*-webkit-appearance: none;*/
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    /*-moz-box-sizing: border-box;*/
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    /*-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);*/
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.loginmodal {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 36px;
+    padding: 0 8px;
+    /* border-radius: 3px; */
+    /* -webkit-user-select: none;
+      user-select: none; */
+}
+
+.loginmodal-submit {
+    /* border: 1px solid #3079ed; */
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    background-color: #4d90fe;
+    padding: 17px 0px;
+    font-family: roboto;
+    font-size: 14px;
+
+}
+
+.loginmodal-submit:hover {
+
+    border: 0px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    background-color: #357ae8;
+
+}
+
+.loginmodal-container a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+.login-help {
+    font-size: 12px;
+}
+
+.aboutus {
+    padding: 20px;
+}
+
+.toggle {
+    padding-right: 8px;
+}
+
+.navbar {
+    padding: 0rem 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.logo {
+    width: 200px;
+    height: 70px;
+    padding-left: 15px;
+}
+
+/*---------------------------------------------------*/
+
+/* REFERENCES:
+http://www.techirsh.com/2015/05/creating-attractive-rounded-button-with.html
+color codes: https://htmlcolorcodes.com/ */
+.imageClass {
+    position: relative;
+    text-align: center;
+    color: #0E2658;
+}
+
+.textCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+}
+
+.btn-icons {
+    padding: 8px;
+}
+
+.icon-btn {
+    padding: 1px 15px 15px 15px;
+    border-radius: 50px;
+    margin-right: 4px;
+}
+
+/*---------------------------------------------------*/
+
+.big-banner {
+    background-image: url('includes/assets/images/bgassign2.jpg');
+}
+
+.border {
+    border-color: darkmagenta;
+}
+
+.bg {
+    background-color: #FFF6A6;
+}
+
+.add-expense {
+
+    background: #E8963D;
+}
+
+.border {
+    border-color: aqua;
+    border-style: solid;
+}
+
+.topbar {
+
+    background: #e8dfff;
+
+}
+
+.bgcolor {
+    background-color: aqua;
+}
+
+.color {
+    color: darkmagenta;
+    border-color: darkmagenta;
+
+}
+
+.btn-outline-success {
+    color: darkmagenta;
+    background-color: #e8dfff;
+}
+
+.btn-outline-success:hover {
+    background-color: darkmagenta;
+
+}
+
+.btn-outline-success:active {
+    background: darkmagenta;
+}
+
+/*-------------------------------------------------------------------------------*/
+.navbar-inverse {
+    border-color: #0056b3;
+    background-color: #0069d9;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f7f7f7;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #f7f7f7;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fefefe;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a {
+    text-decoration: none;
+    background-color: #004085;
+}
+
+.padding {
+    padding-top: 75px;
+}
+
+/*--------------------------------------------------------------------*/
+
+#containercenter {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*.card-body{*/
+/*align: left;*/
+/*}*/
